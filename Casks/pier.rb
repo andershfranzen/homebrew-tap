@@ -7,15 +7,15 @@ cask "pier" do
   desc "Menu-bar Docker fleet monitor over SSH"
   homepage "https://afive.dev/pier"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Pier.app"
 
   uninstall quit: "dk.afive.pier"
 
   zap trash: [
-    "~/Library/Application Support/Pier",
     "~/Library/Application Support/DockGlance",
+    "~/Library/Application Support/Pier",
     "~/Library/Preferences/dk.afive.pier.plist",
   ]
 end
