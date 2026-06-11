@@ -1,9 +1,9 @@
-# andershfranzen/tap
+# Moved
 
-Homebrew tap for my apps.
+Apps live in the `afive` tap:
 
 ```sh
-brew install --cask andershfranzen/tap/pier
+brew install --cask andershfranzen/afive/pier
 ```
 
-[Pier](https://afive.dev/pier) — menu-bar Docker fleet monitor over SSH.
+https://github.com/andershfranzen/homebrew-afive
